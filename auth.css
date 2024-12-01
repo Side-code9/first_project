@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(180.00deg,rgb(63, 112, 243) 5%, rgb(28, 50, 108) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sign-up {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 20px;
+    width: 20%;
+}
+
+label {
+    font-weight: 500;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+input {
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.btn {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(63, 112, 243);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.text {
+    display: flex;
+    gap: 3px;
+}
+
+.text p {
+    color: gray;
+}
+
+.text a {
+    color: rgb(63, 112, 243);
+    text-decoration: none;
+}
+
+.linetext {
+    color: gray;
+    display: flex;
+    gap: 20px;
+}
+
+.linetext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+.linetext hr {
+    flex: 1;
+    border: none;
+    height: 1px;
+    background-color: gray;
+    width: 110px;
+  }
+  
+.linetext span {
+    font-size: 14px;
+    color: gray;
+    font-weight: bold;
+}
+
+.facebook {
+    width: 100%;
+    background-color: rgb(63, 112, 243);
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+}
+
+.google {
+    display: flex;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    color: gray;
+}
+
+.facebook img {
+    width: 20px;
+    height: 20px;
+}
+
+.google img {
+    width: 20px;
+    height: 20px;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('/fonts/Roboto-Black.ttf');
+}
